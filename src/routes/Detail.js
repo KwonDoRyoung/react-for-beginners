@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 
-import Movie from "../componenets/Movie";
+import Movie from "../components/Movie";
 function Detail() {
     const { id } = useParams()
     const [loading, setLoading] = useState(true);
